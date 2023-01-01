@@ -1,0 +1,1 @@
+CREATE TABLE "public"."hotels" ("id" serial NOT NULL, "name" text NOT NULL, "image" text NOT NULL, "roomCount" integer NOT NULL, "latitude" Numeric NOT NULL, "longitude" numeric NOT NULL, PRIMARY KEY ("id") );

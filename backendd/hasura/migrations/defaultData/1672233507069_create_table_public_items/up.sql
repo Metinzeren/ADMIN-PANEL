@@ -1,0 +1,1 @@
+CREATE TABLE "public"."items" ("id" serial NOT NULL, "name" text NOT NULL, "price" int2 NOT NULL, "stock" boolean NOT NULL, "image" text NOT NULL, "description" text NOT NULL, "category" text NOT NULL, PRIMARY KEY ("id") );
